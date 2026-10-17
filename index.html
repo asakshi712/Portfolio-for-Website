@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Data analyst portfolio showcasing SQL, Python, data visualization, and business analysis projects.">
+  <title>Your Name | Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav container">
+    <a class="brand" href="#home"><span class="brand-mark">DA</span><span>Your Name</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> OPEN TO DATA ANALYST OPPORTUNITIES</div>
+        <h1>Turning data into <span class="accent">clear decisions.</span></h1>
+        <p class="hero-text">I’m an aspiring Data Analyst who enjoys transforming raw data into useful insights through SQL, Python, exploratory analysis, and clear visual storytelling.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>SQL</strong><span>Query & analysis</span></div>
+          <div><strong>Python</strong><span>Clean & explore</span></div>
+          <div><strong>BI</strong><span>Visual storytelling</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative data visualization">
+        <div class="visual-top"><span class="window-dots"><i></i><i></i><i></i></span><span>insights_dashboard.py</span><span class="live-dot">● LIVE</span></div>
+        <div class="metric-row">
+          <div class="metric-card"><span class="metric-label">Data quality</span><strong>Clean<span class="metric-arrow">↗</span></strong><small>Prepare for analysis</small></div>
+          <div class="metric-card"><span class="metric-label">Key objective</span><strong>Insight</strong><small>Answer the right question</small></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-heading"><div><span class="metric-label">ANALYSIS WORKFLOW</span><h3>From raw data to insight</h3></div><span class="chart-tag">4 STEPS</span></div>
+          <div class="bar-chart">
+            <div class="bar-item"><span class="bar b1"></span><small>Collect</small></div>
+            <div class="bar-item"><span class="bar b2"></span><small>Clean</small></div>
+            <div class="bar-item"><span class="bar b3"></span><small>Analyze</small></div>
+            <div class="bar-item"><span class="bar b4"></span><small>Present</small></div>
+          </div>
+          <div class="chart-foot"><span><i class="legend-dot"></i> Structured problem-solving</span><span>01 — 04</span></div>
+        </div>
+        <div class="code-card"><span class="code-purple">SELECT</span> meaningful_insights<br><span class="code-purple">FROM</span> business_data<br><span class="code-purple">WHERE</span> questions_need_answers;</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="section-grid">
+        <h2>Curious by nature.<br><span class="muted">Analytical by approach.</span></h2>
+        <div class="section-copy">
+          <p>I approach data analysis by first understanding the business question, then checking data quality, exploring patterns, and communicating findings in a way that supports action.</p>
+          <p>My portfolio focuses on practical exercises in exploratory data analysis, SQL-based business reporting, and dashboard design. I’m continuing to strengthen my analytical thinking and technical toolkit through hands-on projects.</p>
+          <a class="text-link" href="#projects">See selected projects <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-label">02 / TOOLKIT</div>
+        <div class="section-heading"><h2>Tools I work with</h2><p>A growing toolkit for asking better questions and finding reliable answers.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Query & databases</h3><p>SQL · PostgreSQL · SQLite</p><span class="skill-note">Filtering, joins, aggregations, KPI queries</span></article>
+          <article class="skill-card"><div class="skill-icon">Py</div><h3>Analysis & cleaning</h3><p>Python · Pandas · NumPy</p><span class="skill-note">Data wrangling, missing values, EDA</span></article>
+          <article class="skill-card"><div class="skill-icon">▥</div><h3>Visualization</h3><p>Matplotlib · Seaborn</p><span class="skill-note">Charts, patterns, correlation analysis</span></article>
+          <article class="skill-card"><div class="skill-icon">◫</div><h3>BI & reporting</h3><p>Tableau · Power BI · Excel</p><span class="skill-note">Dashboards, KPI tracking, reporting</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-label">03 / SELECTED WORK</div>
+      <div class="section-heading projects-heading"><div><h2>Projects with a purpose</h2><p>Examples of how I explore data, investigate questions, and present findings.</p></div><span class="project-count">03 PROJECTS</span></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual netflix"><div class="visual-label">EXPLORATORY DATA ANALYSIS</div><div class="mini-title">STREAMING<br><span>LANDSCAPE</span></div><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div class="project-content"><div class="project-meta"><span>PYTHON</span><span>PANDAS · MATPLOTLIB</span></div><h3>Netflix Movies & TV Shows Analysis</h3><p>Explore catalog composition, content types, release patterns, and country-level trends using exploratory data analysis.</p><div class="project-bottom"><span class="project-type">Data exploration</span><a href="https://github.com/" target="_blank" rel="noreferrer">Add project link ↗</a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual sales"><div class="visual-label">BUSINESS & SQL ANALYSIS</div><div class="mini-title">SALES<br><span>PERFORMANCE</span></div><div class="sales-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="sales-line"></div></div>
+          <div class="project-content"><div class="project-meta"><span>SQL</span><span>POSTGRESQL</span></div><h3>E-commerce Sales Analysis</h3><p>Analyze sales value by category, order trends, customer reviews, inventory, and profitability from a relational dataset.</p><div class="project-bottom"><span class="project-type">Business intelligence</span><a href="https://github.com/" target="_blank" rel="noreferrer">Add project link ↗</a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual titanic"><div class="visual-label">STATISTICAL EXPLORATION</div><div class="survival-number">EDA<span> / 03</span></div><div class="survival-rows"><div><span>Feature analysis</span><i><b style="width:78%"></b></i></div><div><span>Data preparation</span><i><b style="width:91%"></b></i></div><div><span>Visualization</span><i><b style="width:68%"></b></i></div></div></div>
+          <div class="project-content"><div class="project-meta"><span>PYTHON</span><span>SEABORN · PANDAS</span></div><h3>Titanic Dataset EDA</h3><p>Investigate survival patterns across passenger attributes, handle data quality issues, and communicate findings through charts.</p><div class="project-bottom"><span class="project-type">Exploratory analysis</span><a href="https://github.com/" target="_blank" rel="noreferrer">Add project link ↗</a></div></div>
+        </article>
+      </div>
+      <p class="project-disclaimer">Before sharing this portfolio, replace the sample project links with your actual repositories or reports and ensure each description reflects work you have completed.</p>
+    </section>
+
+    <section class="section process-section">
+      <div class="container process-layout">
+        <div><div class="section-label">04 / MY APPROACH</div><h2>A clear process.<br><span class="muted">Useful outcomes.</span></h2><p class="process-intro">Good analysis is more than a chart. It starts with the right question and ends with a finding someone can use.</p></div>
+        <div class="process-list">
+          <div class="process-item"><span>01</span><div><h3>Understand</h3><p>Define the business question and the metric that matters.</p></div></div>
+          <div class="process-item"><span>02</span><div><h3>Prepare</h3><p>Inspect, clean, validate, and structure the data.</p></div></div>
+          <div class="process-item"><span>03</span><div><h3>Analyze</h3><p>Use SQL and Python to identify trends and patterns.</p></div></div>
+          <div class="process-item"><span>04</span><div><h3>Communicate</h3><p>Present findings clearly with visualizations and context.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div class="section-label">05 / CONTACT</div>
+        <h2>Let’s make data<br><span class="accent">make sense.</span></h2>
+        <p>I’m interested in entry-level Data Analyst opportunities where I can learn, contribute, and turn data into meaningful insights.</p>
+        <div class="contact-actions"><a class="button primary" href="mailto:your.email@example.com">Email me ↗</a><a class="button secondary light" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="button secondary light" href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+        <div class="footer-line"><span>© <span id="year"></span> Your Name</span><span>Built with curiosity & data</span><a href="#home">Back to top ↑</a></div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
